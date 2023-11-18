@@ -24,6 +24,10 @@ body {
   font-family: "DM Sans", sans-serif;
   letter-spacing: -0.5px;
   color: var(--text-color);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .none {
@@ -352,6 +356,7 @@ body {
 /* Footer */
 
 .footer {
+  margin-top: auto;
   padding: 60px 0 50px;
   background: var(--dark-bg);
   color: var(--header-text);
