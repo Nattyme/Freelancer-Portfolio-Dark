@@ -214,3 +214,33 @@ body {
     letter-spacing: -0.5px;
     color: #171718;
 }
+
+/* Footer */
+.footer {
+    padding: 50px 0;
+    background: #171718;
+    color: #fff;
+}
+
+.footer__row {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.socials {
+    margin-bottom: 27px;
+}
+
+.socials__row {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 24px */
+    letter-spacing: -0.5px;
+}
