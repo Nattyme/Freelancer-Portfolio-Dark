@@ -16,6 +16,14 @@ body {
   margin: 0 auto;
 }
 
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    color: #5c62ec;
+}
+
 /* Nav */
 .nav {
   padding: 20px 0;
@@ -97,6 +105,11 @@ body {
   transform: translate(43%, -24%);
 }
 
+.header__content {
+    position: relative;
+    z-index: 1;
+}
+
 .header__title {
   font-size: 60px;
   font-weight: 700;
@@ -107,13 +120,6 @@ body {
   margin-bottom: 20px;
 }
 
-.header__title span {
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: -0.5px;
-  color: #5c62ec;
-}
 
 .header__title h2 {
   font-size: 40px;
@@ -149,4 +155,27 @@ body {
 
 .btn:hover {
   opacity: 0.8;
+}
+
+/*Projects*/
+
+.projects {
+    padding: 70px 0;
+}
+
+.projects__title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.projects__cards {
+}
+
+.card {
+}
+
+.card__img {
+}
+
+.card__title {
 }
