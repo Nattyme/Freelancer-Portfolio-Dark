@@ -166,6 +166,12 @@ body {
 
   border-radius: 50%;
   background-color: var(--white);
+  
+  transition: left 0.2s ease-in;
+}
+
+.dark-mode-btn--active::before {
+  left: 26px;
 }
 
 .dark-mode-btn__icon {
