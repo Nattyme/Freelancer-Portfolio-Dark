@@ -136,6 +136,43 @@ body {
   background-color: var(--accent);
 }
 
+/* Dark mode btn*/
+
+
+.dark-mode-btn {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  width: 51px;
+  height: 26px;
+  padding: 5px;
+
+  background: #272727;
+  border-radius: 50px;
+}
+
+.dark-mode-btn::before {
+  content: "";
+  
+  position: absolute;
+  top: 1px;
+  left: 1px;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+
+
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.dark-mode-btn__icon {
+  position: relative;
+  z-index: 9;
+}
+
 /* Header */
 .header {
   padding: 40px 0;
@@ -160,19 +197,6 @@ body {
   max-width: 700px;
   padding: 0 15px;
 }
-
-/* .header__wrapper::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 627px;
-  height: 627px;
-  background-image: url(./../img/header/Abstract.svg);
-  transform: translate(43%, -24%);
-} */
 
 .header__title {
   margin-bottom: 20px;
