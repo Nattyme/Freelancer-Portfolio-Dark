@@ -27,6 +27,11 @@ font-family: 'Poppins', sans-serif;
   --project-card-bg: var(--white);
   --project-card-text: var(--black); 
   --box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+
+  --btnOutline-bg: var(--white);
+  --btnOutline-text: var(--black);
+  --btnOutline-fill: var(--blackpure);
+  --btnOutline-border: var(--black-pure);
 }
 
 .dark {
@@ -39,6 +44,11 @@ font-family: 'Poppins', sans-serif;
   --project-card-bg: var(--white);
   --project-card-text: var(--black); 
   --box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.8);
+
+  --btnOutline-bg: var(--blackpure);
+  --btnOutline-text: var(--white);
+  --btnOutline-fill: var(--white);
+  --btnOutline-border: var(--white);
 }
 
 html,
@@ -297,13 +307,13 @@ body {
   padding: 12px 20px;
   border-radius: 5px;
 
-  border: 1px solid var(--blackpure);
-  background-color: var(--white);
-  color: var(--blackpure);
+  border: 1px solid var(--btnOutline-border);
+  background-color: var(--btnOutline-bg); 
+  color: var(--btnOutline-text);
 }
 
 .btn-outline svg {
-  fill: var(--blackpure);
+  fill: var(--btnOutline-fill);
 }
 
 .btn-outline:hover svg {
