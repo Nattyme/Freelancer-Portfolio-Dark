@@ -54,7 +54,7 @@ font-family: 'Poppins', sans-serif;
   --btnOutline-fill: var(--white);
   --btnOutline-border: var(--white);
 
-  --shadow-hover: 0px 5px 35px 0px var(--rose);
+  --shadow-hover: 0px 5px 35px 0px var(--accent);
 }
 
 html,
