@@ -142,6 +142,7 @@ body {
 
 .dark-mode-btn {
   order: 9;
+
   position: relative;
 
   display: flex;
@@ -462,6 +463,16 @@ body {
 
   .header__title strong {
     font-size: 40px;
+  }
+
+  /* Nav */ 
+  
+  .nav-row {
+    justify-content: space-between;
+  }
+  
+  .dark-mode-btn {
+    order: 0;
   }
 
 
