@@ -31,7 +31,7 @@ font-family: 'Poppins', sans-serif;
   --btnOutline-bg: var(--white);
   --btnOutline-text: var(--black);
   --btnOutline-fill: var(--blackpure);
-  --btnOutline-border: var(--black-pure);
+  --btnOutline-border: var(--blackpure);
 }
 
 .dark {
