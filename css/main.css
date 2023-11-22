@@ -40,7 +40,7 @@ font-family: 'Poppins', sans-serif;
 .dark {
   /* Dark mode*/
   --accent: var(--rose);
-  --page-bg: #252526;
+  --page-bg: #272626;
   --text-color: var(--white);
 
   --title-1: var(--accent);
@@ -54,7 +54,7 @@ font-family: 'Poppins', sans-serif;
   --btnOutline-fill: var(--white);
   --btnOutline-border: var(--white);
 
-  --shadow-hover: 0px 5px 35px 0px var(--accent);
+  --shadow-hover: 0px 5px 35px 0px var(--rose);
 }
 
 html,

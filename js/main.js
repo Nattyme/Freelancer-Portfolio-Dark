@@ -4,7 +4,14 @@ const btnDarkMode = document.querySelector('.dark-mode-btn');
 if (localStorage.getItem('darkMode') === 'dark') {
     btnDarkMode.classList.add("dark-mode-btn--active");
     document.body.classList.add("dark");
+};
+
+// Проверка темной темы на уровне системных настроек
+if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    btnDarkMode.classList.add("dark-mode-btn--active");
+    document.body.classList.add("dark");
 }
+
 
 // Включение ночного режима по кнопке
 btnDarkMode.onclick = function(){
